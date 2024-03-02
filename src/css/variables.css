@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #000000;
+    --bg-color-section-we-can-do: hsla(0, 0%, 4%, 1);
+    --menu-border-bottom-color: hsla(0, 0%, 100%, 0.12);
+    --start-color-btn: rgba(179, 100, 55, 1);
+    --end-color-btn: rgba(221, 201, 165, 1);
+    --bg-header: rgba(0, 0, 0, 0.06);
+    --color-selected-option-nav: #B36437;
+    --span-color: #B36437;
+    --rectangle-bg-color: hsla(0, 0%, 12%, 0.2);
+    --rectangle-border-color: hsla(39, 45%, 76%, 0.21);
+    --footer-font-gray-color: hsla(0, 0%, 34%, 1);
+    --font-primary-color: hsla(0, 0%, 100%, 1);
+    --font-secundary-color: hsla(0, 0%, 76%, 1);
+    --border-button-color: hsla(0, 0%, 100%, 0.29);
+    --menu-color: hsla(0, 0%, 64%, 1);
+    --description-hero-color: hsla(0, 0%, 100%, 0.68);
+    --hr-color: hsla(0, 0%, 34%, 0.52);
+}

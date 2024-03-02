@@ -1,0 +1,8 @@
+.div-bg-image {
+    display: flex;
+    justify-content: center;
+}
+
+.div-bg-image img {
+    width: 100%;
+}

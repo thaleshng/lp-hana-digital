@@ -1,0 +1,56 @@
+.services {
+    display: flex;
+    justify-content: center;
+    padding: 261px 0;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    gap: 55px;
+}
+
+.title-services {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.title-services h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.title-services h2 span {
+    color: var(--span-color);
+}
+
+.title-services .arrow-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.services-container hr {
+    border: 1px solid var(--hr-color);
+}
+
+.general-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.general-services p {
+    padding: 31px 41px;
+    background-color: var(--rectangle-bg-color);
+    border: 1px solid var(--rectangle-border-color);
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.general-services p:hover {
+    background: linear-gradient(to right, var(--start-color-btn) 0%, var(--end-color-btn) 100%);
+}

@@ -1,0 +1,48 @@
+.hero {
+    background: url(../assets/bg-section-hero.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+}
+
+.hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21.5%;
+    max-width: 620px;
+    gap: 25px;
+}
+
+.hero .hero-content .sell-google {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero .hero-content .sell-google span {
+    color: var(--menu-color);
+}
+
+.hero .hero-content .hero-title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+.hero .hero-content .hero-title span {
+    color: var(--span-color);
+}
+
+.hero .hero-content p {
+    font-size: 21px;
+    color: var(--menu-color);
+    line-height: 31.5px;
+}
+
+.hero .hero-content #btn {
+    max-width: 480px;
+    padding: 23px 56px;
+    font-size: 18px;
+}
